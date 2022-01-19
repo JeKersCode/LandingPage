@@ -1,0 +1,44 @@
+.main-tbl {
+    width: 100%;
+}
+
+.sell-tbl, th, tr,td {
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid orange;
+    border-left: none;
+    border-collapse: collapse;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+}
+
+.sell-tbl, thead {
+    border-top: 6px solid rgb(219, 143, 2);
+}
+
+.sell-tbl tfoot {
+    font-weight: 600;
+}
+
+.tbl-title {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    padding: 0;
+}
+
+.vendor {
+    text-align: left;
+    vertical-align: text-top;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.model, .price {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+}
