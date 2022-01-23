@@ -29,6 +29,13 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    box-shadow: 0 0 3px #353535,
+                0 1px 6px #000;
+}
+
 .wrap {
     max-width: 1180px;
     max-height: 800px;
@@ -124,6 +131,7 @@ body {
     border: none;
     box-shadow: 1px 1px 1px #353535;
     text-shadow: 1px 1px 1px #353535;
+    cursor: pointer;
 }
 
 .btn1:hover {
